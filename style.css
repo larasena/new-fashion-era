@@ -1,0 +1,108 @@
+/*MENU*/
+
+.menu {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.menu a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #453e36;
+}
+
+.menu a:hover {
+  color: #72675a;
+  text-decoration: underline;
+}
+
+.menu ul li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 50px;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 36px;
+  margin: 10px;
+  margin-left: 50px;
+}
+
+/*CONTEUDO*/
+
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 100px;
+  font-family: "Times New Roman", Times, serif;
+  color: #453e36;
+  animation-duration: 2.5s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-top: 100%;
+    width: 100%;
+  }
+
+  to {
+    margin-bottom: 0%;
+    width: 100%;
+  }
+}
+
+.conteudo {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 60px;
+  margin-bottom: 0px;
+}
+
+.conteudo img {
+  max-width: 100%;
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-top: 100%;
+    width: 100%;
+  }
+
+  to {
+    margin-bottom: 0%;
+    width: 100%;
+  }
+}
+
+.conteudo p {
+  color: #72675a;
+  font-size: 18px;
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-top: 100%;
+    width: 100%;
+  }
+
+  to {
+    margin-bottom: 0%;
+    width: 100%;
+  }
+}
+
+.conteudo a {
+  color: #72675a;
+  text-decoration: none;
+}
+
+.conteudo a:hover {
+  color: #453e36;
+  text-decoration: underline;
+}
